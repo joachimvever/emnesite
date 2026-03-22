@@ -254,7 +254,18 @@ nav a:hover {
 .bone1 {
   display: block;
   width: 100%;
-  max-width: 270px;
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
+  margin: 0;
+  justify-self: center;
+  border: solid black;
+}
+.bone11 {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
   height: auto;
   margin: 0;
   justify-self: center;
@@ -369,6 +380,15 @@ h4 {
   justify-content: center;
 }
 
+.albumtitel {
+  font-weight: lighter;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+}
+
 .h4file {
   font-family: kode;
   font-size: small;
@@ -462,6 +482,9 @@ p {
 
 .image-container:hover .img-hover {
   opacity: 1;
+}
+.tags {
+  margin: 0.5rem;
 }
 
 .text {
